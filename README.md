@@ -16,6 +16,7 @@ Este projeto é um estudo de implementação de uma API RESTful em Java utilizan
 - Spring Validation
 - MapStruct
 - JUnit 5
+- Swagger (Springdoc OpenAPI)
 
 ---
 
@@ -71,13 +72,18 @@ src
 - Adaptadores externos fáceis de trocar ou adicionar
 - Integrações com outros sistemas feitas via interfaces (`outbound ports`)
 
+### 📄 Documentação com Swagger
+
+- A API possui documentação automática utilizando **Swagger UI**
+- Disponível em: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+
 ---
 
 ## ▶️ Como Rodar o Projeto
 
 ```bash
-git clone https://github.com/seu-usuario/sua-api.git
-cd sua-api
+git clone https://github.com/EinsteinAyres/api_rest_hexagonal.git
+cd api_rest_estudo
 ./mvnw spring-boot:run
 ```
 
@@ -90,6 +96,7 @@ Acesse: [http://localhost:8080/api/v1](http://localhost:8080/api/v1)
 - [Documentação oficial Spring Boot](https://spring.io/projects/spring-boot)
 - [Arquitetura Hexagonal - Alistair Cockburn](https://alistair.cockburn.us/hexagonal-architecture/)
 - [Clean Architecture - Uncle Bob](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)
+- [Springdoc OpenAPI](https://springdoc.org/)
 
 ---
 
